@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sjinc</groupId>
+    <artifactId>jar-service</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshot</id>
+            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+</project>
