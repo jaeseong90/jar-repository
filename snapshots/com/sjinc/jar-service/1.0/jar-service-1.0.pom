@@ -24,12 +24,12 @@
     <distributionManagement>
         <repository>
             <id>release</id>
-            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/releases</url>
+            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/tree/master/releases</url>
         </repository>
 
         <snapshotRepository>
             <id>snapshot</id>
-            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/snapshots</url>
+            <url>http://sysgit.sjinc.co.kr:8001/sj_msa/jar-repository/tree/mastersnapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
